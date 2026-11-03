@@ -171,6 +171,7 @@ The `--ppa` option runs the thumbnail through an ffmpeg crop filter that cuts a 
 
 - YouTube serves audio as AAC or Opus, so MP3 is always a lossy re-encode and can't beat the source quality. For no re-encoding, change `--audio-format mp3` to `m4a` or `opus` in the script.
 - Metadata depends on what YouTube provides. Tracks without album or artist data fall back to the video title and uploader name.
+- Playlist tracks are named `Artist - Title.mp3`. If a playlist contains the same artist and title twice, you can end up with only one file, because existing files are never overwritten.
 
 ## Disclaimer
 

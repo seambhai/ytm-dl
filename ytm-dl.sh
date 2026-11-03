@@ -70,7 +70,7 @@ args=(
   --ppa "$crop_args"
   --replace-in-metadata uploader ' - Topic$' ''
   -P "$outdir"
-  -o "%(playlist_title)s/%(playlist_index)03d - %(artist,uploader)s - %(title)s.%(ext)s"
+  -o "%(playlist_title)s/%(artist,uploader)s - %(title)s.%(ext)s"
 )
 
 if [[ -n $cookies ]]; then

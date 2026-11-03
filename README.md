@@ -97,8 +97,8 @@ Playlist (`ytm-dl.sh`):
 ~/Music/YT-Music/
 ├── .archive.txt
 └── Playlist Title/
-    ├── 001 - Artist - Song.mp3
-    └── 002 - Artist - Song.mp3
+    ├── Artist - Song A.mp3
+    └── Artist - Song B.mp3
 ```
 
 Single song (`ytm-dl-single.sh`):

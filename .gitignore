@@ -1,0 +1,21 @@
+# Secrets: never commit cookies
+cookies.txt
+*cookies*.txt
+
+# Files the scripts generate
+ytm-dl-errors.log
+.archive.txt
+
+# Downloaded media and yt-dlp leftovers
+*.mp3
+*.m4a
+*.opus
+*.webm
+*.part
+*.ytdl
+
+# OS / editor files
+.DS_Store
+*~
+.vscode/
+.idea/
